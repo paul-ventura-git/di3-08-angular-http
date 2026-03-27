@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { ExampleService } from '../../../core/services/example.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-users',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './users.component.html',
   styleUrl: './users.component.css'
 })
